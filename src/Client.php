@@ -1,6 +1,6 @@
 <?php
 
-namespace Growinc\OCR;
+namespace Growinc\Ocr;
 
 use GuzzleHttp\Psr7\Utils;
 

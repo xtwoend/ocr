@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Growinc\OCR;
+namespace Growinc\Ocr;
 
-use Growinc\OCR\Client;
+use Growinc\Ocr\Client;
 
 class IDCentral
 {
