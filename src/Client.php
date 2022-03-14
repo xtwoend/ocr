@@ -23,7 +23,7 @@ class Client
     {
         $types = ['KTP' => 'NID', 'PASPOR' => 'PSPT', 'SIM' => 'DL'];
 
-        if(! in_array($type, $types))
+        if(! array_key_exists($type, $types))
             return;
 
         $this->options['multipart'] = [
