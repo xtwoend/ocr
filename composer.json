@@ -1,0 +1,20 @@
+{
+    "name": "growinc/ocr",
+    "description": "OCR KTP, PASPOR, SIM",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Growinc\\OCR\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdul Hafidz A",
+            "email": "aditans88@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzle/guzzle": "^3.9"
+    }
+}
